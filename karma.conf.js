@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/employee-payroll-frontend-angular'),
+      dir: require('path').join(__dirname, './coverage/EmployeePayrollApp'),
       subdir: '.',
       reporters: [
         { type: 'html' },
